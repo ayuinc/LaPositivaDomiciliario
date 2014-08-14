@@ -1,4 +1,7 @@
 # Untracked files:
 /system/expressionengine/config/
 .htaccess
-.sass-cache
+
+# Ignore Sass-Cache
+stylesheets/.sass-cache
+stylesheets/.sass-cache/*
