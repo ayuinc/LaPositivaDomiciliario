@@ -9,6 +9,7 @@
   "includes/type-custom",
   "includes/icons",
   // LAYOUT
+  "includes/layout-global",
   "includes/layout-footer",
   "includes/layout-header";
   // "includes/layout-canvas-container",
@@ -21,5 +22,8 @@
   // "includes/nav-off-canvas",
 
 // APP Views
-// @import 
+@import 
   // VIEW NAME
+  "views/landing",
+  "views/avaluo",
+  "views/confirmacion";
