@@ -1,0 +1,32 @@
+body.confirmacion { 
+	// background: url(../assets/images/background-index.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.confirmacion{
+
+	h1{
+		color: #f04935;
+	}
+	p{
+		color: #8e8e8e;
+	}
+
+	.social-networks{
+		padding-left: 3rem;
+		padding-right: 2rem;
+		bottom: 0;
+		a{
+			color: #ff7816;
+		}
+		a:hover{
+			color: #fca05e;
+		}	
+		img{
+			position: relative;
+			top: -3rem;
+		}
+	}
+
+}
