@@ -1,5 +1,5 @@
 body.confirmacion { 
-	// background: url(../assets/images/background-index.png) no-repeat;
+	background: url(../assets/images/background-confirm.png) no-repeat;
 	background-size: 100% 100%;
 	color: #fff;
 }
@@ -8,9 +8,15 @@ body.confirmacion {
 
 	h1{
 		color: #f04935;
+		font-size: 4rem;
 	}
 	p{
 		color: #8e8e8e;
+		font-size: 1.5rem;
+	}
+	.correo{
+		color: #ff6b00;
+		font-size: 3rem;
 	}
 
 	.social-networks{

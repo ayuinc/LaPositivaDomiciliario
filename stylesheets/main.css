@@ -1802,19 +1802,19 @@ select[multiple].input-lg,
 
 .btn-success {
   color: white;
-  background-color: #5cb85c;
-  border-color: #4cae4c; }
+  background-color: #ff6b00;
+  border-color: #e66000; }
   .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
     color: white;
-    background-color: #449d44;
-    border-color: #398439; }
+    background-color: #cc5600;
+    border-color: #a84700; }
   .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
     background-image: none; }
   .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-    background-color: #5cb85c;
-    border-color: #4cae4c; }
+    background-color: #ff6b00;
+    border-color: #e66000; }
   .btn-success .badge {
-    color: #5cb85c;
+    color: #ff6b00;
     background-color: white; }
 
 .btn-info {
@@ -3263,10 +3263,10 @@ input[type="button"].btn-block {
   background: #3db5d8 !important; }
 
 .bg-success {
-  background: #5cb85c !important; }
+  background: #ff6b00 !important; }
 
 .bg-success-dark {
-  background: #49a749 !important; }
+  background: #db5c00 !important; }
 
 .bg-danger {
   background: #d9534f !important; }
@@ -5702,11 +5702,11 @@ p, .p, ul {
       color: #9b2522; }
 
 .text-success {
-  color: #5cb85c !important; }
+  color: #ff6b00 !important; }
   .text-success a {
-    color: #5cb85c !important; }
+    color: #ff6b00 !important; }
     .text-success a:hover {
-      color: #337633; }
+      color: #943e00; }
 
 .text-info {
   color: #5bc0de !important; }
@@ -5747,8 +5747,8 @@ a.not-underline:hover {
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .text-gradient {
-    background: -webkit-linear-gradient(left, #ec6433, #5bc0de, #5cb85c) repeat;
-    background: linear-gradient(to right, #ec6433, #5bc0de, #5cb85c) repeat;
+    background: -webkit-linear-gradient(left, #ec6433, #5bc0de, #ff6b00) repeat;
+    background: linear-gradient(to right, #ec6433, #5bc0de, #ff6b00) repeat;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -5823,13 +5823,19 @@ body.landing {
     .container .form-landing {
       top: 0%; } }
 body.confirmacion {
+  background: url(../assets/images/background-confirm.png) no-repeat;
   background-size: 100% 100%;
   color: #fff; }
 
 .confirmacion h1 {
-  color: #f04935; }
+  color: #f04935;
+  font-size: 4rem; }
 .confirmacion p {
-  color: #8e8e8e; }
+  color: #8e8e8e;
+  font-size: 1.5rem; }
+.confirmacion .correo {
+  color: #ff6b00;
+  font-size: 3rem; }
 .confirmacion .social-networks {
   padding-left: 3rem;
   padding-right: 2rem;
