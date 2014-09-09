@@ -3,3 +3,10 @@ a.btn-primary,
 button.btn-primary {
 	@include linear-gradient(to bottom, darken($brand-primary, 7%), $brand-primary);
 }
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active{
+	border-radius: 0;
+	border-color: #fff;
+}

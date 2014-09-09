@@ -1,17 +1,16 @@
 body.landing { 
-	background: url(../assets/images/background-index.png) no-repeat;
+	background: url(../assets/images/landing-bg.png) no-repeat;
 	background-size: 100% 100%;
 	color: #fff;
 }
 
-
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-ks64xf');
-	src:url('fonts/icomoon.eot?#iefix-ks64xf') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-ks64xf') format('woff'),
-		url('fonts/icomoon.ttf?-ks64xf') format('truetype'),
-		url('fonts/icomoon.svg?-ks64xf#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-9q1rgf');
+	src:url('fonts/icomoon.eot?#iefix-9q1rgf') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-9q1rgf') format('woff'),
+		url('fonts/icomoon.ttf?-9q1rgf') format('truetype'),
+		url('fonts/icomoon.svg?-9q1rgf#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -30,64 +29,82 @@ body.landing {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-	.icon-facebook:before {
-		content: "\e600";
-		font-size: 2rem;
-	}
-	.icon-twitter:before {
-		content: "\e601";
-		font-size: 2rem;
+.icon-checkmark:before {
+	content: "\e600";
+	font-size: 1.5rem;
+	position: relative;
+	left: -5px;
+	top: 10px;
+}
+
+.icon-facebook:before {
+	content: "\e601";
+	font-size: 2rem;
+}
+.icon-twitter:before {
+	content: "\e602";
+	font-size: 2rem;
+}
+
+.icon-facebook, .icon-twitter{
+	padding: 0.5rem !important;
+}
+
+.container {
+	position: relative;
+	height:88%;
+	.form-landing{
+		top: 20%;
 	}
 
-	.icon-facebook, .icon-twitter{
-		padding: 0.5rem !important;
-	}
-
-
-	.container {
-		position: relative;
-		height:88%;
-		.form-landing{
-			top: 20%;
-		}
-
-	}
+}
 	
 .landing{
 
 	.main-title {
 		font-size: 3rem;
 		text-transform: uppercase;
+		text-shadow: 1px 1px 3px rgba(58,30,12,0.71);
 	}
 
-	.social-networks{
-		padding-left: 3rem;
-		padding-right: 2rem;
-		bottom: 0;
-		a{
-			color: wheat;
-		}
-		a:hover{
-			color: white;
-		}	
-		img{
-			position: relative;
-			top: -3rem;
-		}
+}
+
+.social-networks{
+
+	padding-left: 3rem;
+	padding-right: 2rem;
+	bottom: 0;
+
+	a{
+		color: #fff;
 	}
 
+	a:hover{
+		color: white;
+	}
+
+	img{
+		position: relative;
+		top: -3rem;
+	}
+	
 	.nav > li > a:hover, .nav > li > a:focus{
 		background: none;
 	}
 
-
 }
 
-	@media(max-width: 480px) {
-		.container {
-			min-height:0 !important;
-			.form-landing{
-				top: 0%;
-			}
+@media(max-width: 480px) {
+	.container {
+
+		min-height:0 !important;
+
+		.form-landing{
+
+			top: 0%;
+
 		}
+
 	}
+
+}
