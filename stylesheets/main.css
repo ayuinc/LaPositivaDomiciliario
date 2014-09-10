@@ -5772,8 +5772,8 @@ body.landing {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?-9q1rgf");
-  src: url("fonts/icomoon.eot?#iefix-9q1rgf") format("embedded-opentype"), url("fonts/icomoon.woff?-9q1rgf") format("woff"), url("fonts/icomoon.ttf?-9q1rgf") format("truetype"), url("fonts/icomoon.svg?-9q1rgf#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?-9q1rgf");
+  src: url("../fonts/icomoon.eot?#iefix-9q1rgf") format("embedded-opentype"), url("../fonts/icomoon.woff?-9q1rgf") format("woff"), url("../fonts/icomoon.ttf?-9q1rgf") format("truetype"), url("../fonts/icomoon.svg?-9q1rgf#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -5870,7 +5870,7 @@ body.landing {
   font-size: 4rem; }
 
 header {
-  background: url(../assets/images/main-bg.png) no-repeat;
+  background: url(../../images/img/main-bg.png) no-repeat;
   background-size: 100% 100%;
   color: #fff; }
 
@@ -5922,7 +5922,7 @@ header {
   line-height: 19px; }
 
 footer {
-  background: url(../assets/images/footer-bg.png) no-repeat;
+  background: url(../../images/img/footer-bg.png) no-repeat;
   background-size: 100% 100%;
   color: #ff6a00; }
 
@@ -5959,7 +5959,7 @@ footer {
     border-right: 5px solid rgba(255, 106, 0, 0.45);
     border-left: 5px solid rgba(255, 106, 0, 0.45); } }
 body.confirmacion {
-  background: url(../assets/images/background-confirm.png) no-repeat;
+  background: url(../../assets/images/background-confirm.png) no-repeat;
   background-size: 100% 100%;
   color: #fff; }
 
