@@ -5766,7 +5766,7 @@ body {
   min-height: 100%; }
 
 body.landing {
-  background: url(../assets/images/landing-bg.png) no-repeat;
+  background: url(../../images/img/landing-bg.png) no-repeat;
   background-size: 100% 100%;
   color: #fff; }
 
@@ -5944,6 +5944,16 @@ footer {
     padding-right: 0 !important; }
   footer .form-group.pl-7 {
     padding-left: 0 !important; } }
+.result {
+  border: 1px solid #ff6a00;
+  background-color: #FFE1CC;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+  .result .local {
+    color: #333; }
+    .result .local .title {
+      font-weight: bold; }
+
 @media (max-width: 320px) {
   .content {
     border-right: 5px solid rgba(255, 106, 0, 0.45);
