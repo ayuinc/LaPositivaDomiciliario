@@ -5862,6 +5862,16 @@ footer {
   .price-block .row .col-md-12 {
     background: #ffe1cc; }
 
+.result {
+  border: 1px solid #ff6a00;
+  background-color: #FFE1CC;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+  .result .local {
+    color: #333; }
+    .result .local .title {
+      font-weight: bold; }
+
 body.confirmacion {
   background: url(../assets/images/background-confirm.png) no-repeat;
   background-size: 100% 100%;

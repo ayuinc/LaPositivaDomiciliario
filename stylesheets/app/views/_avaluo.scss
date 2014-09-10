@@ -43,3 +43,17 @@ footer {
 		}
 	}
 }
+
+.result{
+	border: 1px solid #ff6a00;
+	background-color: #FFE1CC;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	.local{
+		color: #333;
+		.title{
+			font-weight: bold;
+		}
+	}
+}
+
