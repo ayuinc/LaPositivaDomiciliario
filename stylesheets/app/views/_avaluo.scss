@@ -54,31 +54,6 @@ header {
 	border-left: 17px solid rgba(255,106,0,0.45);
 }
 
-.price-block {
-
-	.row {
-		border: 1px solid $brand-primary;
-		margin-top: 7px;
-		background: $orange-light;
-
-		.col-md-2{
-			background: $orange-light;
-		}
-
-		.col-md-10{
-			color: #fff;
-			background: $brand-primary;
-		}
-
-		.col-md-12{
-		}
-
-		.check-icon:before{
-			content: "\e600";
-		}
-	}
-}
-
 .download-phone {
 
 	label {  
@@ -119,6 +94,32 @@ header {
 
 }
 
+.price-block {
+
+	@extend .download-phone;
+	.row {
+		border: 1px solid $brand-primary;
+		margin-top: 7px;
+		background: $orange-light;
+
+		.col-md-2{
+			background: $orange-light;
+		}
+
+		.col-md-10{
+			color: #fff;
+			background: $brand-primary;
+		}
+
+		.col-md-12{
+		}
+
+		.check-icon:before{
+			content: "\e600";
+		}
+	}
+}
+
 footer {
 	background: url(../assets/images/footer-bg.png) no-repeat;
 	background-size: 100% 100%;
@@ -133,7 +134,7 @@ footer {
 		border-left: 10px solid rgba(255,106,0,0.45);
 		
 	}
-	
+
 	footer {
 
 		.form-group {
