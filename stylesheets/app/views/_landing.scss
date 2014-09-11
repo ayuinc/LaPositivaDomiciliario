@@ -30,6 +30,21 @@ body.landing {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+label {
+
+	font-weight: normal;
+
+}
+
+.btn {
+	
+	font-family: $font-family-alt;
+	border-radius: 0;
+	border-color: #fff;
+	text-transform: uppercase;
+
+}
+
 .icon-checkmark:before {
 	content: "\e600";
 	font-size: 1.5rem;
@@ -63,9 +78,10 @@ body.landing {
 .landing{
 
 	.main-title {
-		font-size: 3rem;
+		font-size: 3.5rem;
 		text-transform: uppercase;
 		text-shadow: 1px 1px 3px rgba(58,30,12,0.71);
+		font-family: $font-family-alt;
 	}
 
 }

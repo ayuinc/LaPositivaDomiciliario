@@ -27,15 +27,15 @@
 }
 
 .text-medium {
-	font-size: 2.7rem;
-}
-
-.text-large {
 	font-size: 3rem;
 }
 
+.text-large {
+	font-size: 3.5rem;
+}
+
 .text-xlarge {
-	font-size: 4rem;
+	font-size: 5rem;
 }
 
 header {
@@ -60,8 +60,8 @@ header {
 		border: 1px solid;
     display: inline-block;  
     cursor: pointer;  
-    position: relative;  
-    font-size: 13px;  
+    position: relative;
+    font-size: 1.6rem;  
 	}
 
 	input[type=radio] {  
@@ -87,9 +87,9 @@ header {
 	input[type=radio]:checked + label:before {  
     content: "\2022";  
     color: $brand-primary;  
-    font-size: 50px;  
+    font-size: 42px;  
     text-align: center;  
-    line-height: 19px;  
+    line-height: 14px;  
 	}
 
 }
@@ -97,6 +97,39 @@ header {
 .price-block {
 
 	@extend .download-phone;
+	
+	.price {
+		font-size: 4.5rem;
+		margin-bottom: 0;	
+	}
+
+	label {
+
+		border: none;
+		// font-size: 2rem;
+		width: 100%;
+		font-weight: 900;
+		&.checked {
+
+			&:before {
+				background: url(../../images/img/check-icon.png) no-repeat;
+				-webkit-background-size: 100%;
+				background-size: 100%;
+			}
+			
+		}
+		&:before {
+			left: 118%;
+			top: 30%;
+			border: none;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			height: 35px;
+			width: 35px;
+		}
+	}
+
 	.row {
 		border: 1px solid $brand-primary;
 		margin-top: 7px;
@@ -106,7 +139,7 @@ header {
 			background: $orange-light;
 		}
 
-		.col-md-10{
+		.col-md-9{
 			color: #fff;
 			background: $brand-primary;
 		}
@@ -161,8 +194,8 @@ footer {
 
 	.content {
 
-		border-right: 10px solid rgba(255,106,0,0.45);
-		border-left: 10px solid rgba(255,106,0,0.45);
+		border-right: 6px solid rgba(255,106,0,0.45);
+		border-left: 6px solid rgba(255,106,0,0.45);
 		
 	}
 

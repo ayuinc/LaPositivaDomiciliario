@@ -21,6 +21,8 @@
 .bold {@include bold;}
 // @mixin bold-italic { font-family: $font-family-base !important; font-weight: 700; font-style: italic;}
 // .bold-italic {@include bold-italic;}
+@mixin black { font-family: $font-family-base !important; font-weight: 900; font-style: normal;}
+.black {@include black;}
 
 // SERIFS
 // @mixin serif-light { font-family: $font-family-serif !important; font-weight: 300; font-style: normal;}
